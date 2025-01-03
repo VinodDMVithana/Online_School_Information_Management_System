@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+/* Header Styling */
+.header {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Table Container */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Table Styling */
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table Header Styling */
+.head th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table Body Styling */
+.book-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styling */
+.button-ud {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-ud:hover {
+    background-color: #218838;
+}
+
+.button-ud a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-ud a:hover {
+    text-decoration: underline;
+}

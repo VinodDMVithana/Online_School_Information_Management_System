@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Content Section */
+.content_L {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.content_L h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Paragraph Styling */
+.content_L .para {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* Flex Container Styling */
+.flex-container_L {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between the items */
+}
+
+/* Flex Item Styling */
+.flex-container_L div {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+/* Hover Effect */
+.flex-container_L div:hover {
+    transform: scale(1.05); /* slight zoom on hover */
+}
+
+/* Image Styling */
+.flex-container_L img {
+    display: block;
+    margin: 0 auto 10px; /* center image and add space below */
+    width: 45px;
+    height: 45px;
+}
+
+/* Link Styling */
+.flex-container_L a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.flex-container_L a:hover {
+    color: #0056b3;
+}

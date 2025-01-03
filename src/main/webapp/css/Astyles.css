@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: left;
+    flex: 1;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a,
+header nav form input[type="submit"],
+.button {
+    color: #333;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    background-color: white;
+    border: none; /* Remove border */
+    outline: none; /* Remove default outline */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for both anchor and submit button */
+header nav a:hover,
+header nav form input[type="submit"]:hover,
+.button:hover {
+    background-color: #ff7675;
+    color: white;
+}
+
+/* Body nav styles */
+body nav {
+    background-color: #add8e6;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+body nav a {
+    margin-right: 20px;
+    color: #000040;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body nav a:hover {
+    background-color: #ff7675;
+    color: white;
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+    width: 80%;
+}
+
+/* Paragraph styles */
+.content p {
+    width: 50%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 1.6em;
+}
+
+/* Image styles */
+.content img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* User account container and details */
+.user-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.user-detail {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: left;
+    border: 2px solid #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* User Name */
+.user-detail h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* User details paragraph styles */
+.user-detail p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Aligning labels and values */
+.user-detail .info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Styling for labels */
+.user-detail .label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for values */
+.user-detail .value {
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Edit button */
+.user-detail a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.user-detail a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    max-width: 600px; /* Maximum width of the form */
+    margin: 40px auto; /* Center the form with margin */
+    padding: 20px; /* Padding inside the form */
+    background-color: white; /* Background color of the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Input styles */
+form input[type="text"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+form input[type="email"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+form input[type="password"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+/* Submit button styles */
+form input[type="submit"] {
+    background-color: #4a90e2; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+form input[type="submit"]:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+}
